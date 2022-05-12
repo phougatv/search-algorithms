@@ -20,7 +20,7 @@ public static class ArraySearchExtension
 		where T : notnull, IComparable<T>
 	{
 		if (sortedList.IsNull())
-			ArgumentNullException.ThrowIfNull(nameof(sortedList));
+			ArgumentNullException.ThrowIfNull(sortedList, nameof(sortedList));
 		if (sortedList.IsEmpty())
 			return -1;
 
@@ -45,7 +45,7 @@ public static class ArraySearchExtension
 		where T : notnull, IComparable<T>
 	{
 		if (sortedList.IsNull())
-			ArgumentNullException.ThrowIfNull(nameof(sortedList));
+			ArgumentNullException.ThrowIfNull(sortedList, nameof(sortedList));
 		if (sortedList.IsEmpty())
 			return -1;
 		if (upperBound.IsOutOfRange(0, sortedList.Count - 1))
@@ -91,7 +91,7 @@ public static class ArraySearchExtension
 		where T : notnull, IComparable<T>
 	{
 		if (sortedList.IsNull())
-			ArgumentNullException.ThrowIfNull(nameof(sortedList));
+			ArgumentNullException.ThrowIfNull(sortedList, nameof(sortedList));
 		if (sortedList.IsEmpty())
 			return -1;
 
@@ -119,8 +119,7 @@ public static class ArraySearchExtension
 		where T : notnull, IComparable<T>
 	{
 		if (sortedList.IsNull())
-			ArgumentNullException.ThrowIfNull(nameof(sortedList));
-			//throw new ArgumentNullException(nameof(sortedList));
+			ArgumentNullException.ThrowIfNull(sortedList, nameof(sortedList));
 
 		var blockSize = (Int32)Math.Floor(Math.Sqrt(sortedList.Count));
 		var lowerBound = 0;
@@ -169,8 +168,7 @@ public static class ArraySearchExtension
 		where T : notnull, IComparable<T>
 	{
 		if (list.IsNull())
-			ArgumentNullException.ThrowIfNull(nameof(list));
-			//throw new ArgumentNullException(nameof(list));
+			ArgumentNullException.ThrowIfNull(list, nameof(list));
 
 		for (var i = 0; i < list.Count; i++)
 		{
