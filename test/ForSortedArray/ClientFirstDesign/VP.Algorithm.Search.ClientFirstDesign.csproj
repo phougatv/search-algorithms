@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\SearchAlgorithmsForArray\VP.Algorithm.Search.Array.csproj" />
+    <ProjectReference Include="..\..\..\src\ForSortedArray\VP.Algorithm.Search.Array.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32203.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{FAEA05B8-21F6-494F-A436-67ABBE630398}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B34FD8E5-5047-41A4-8C4D-3E3C833F4F66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ForSortedArray", "ForSortedArray", "{C8D4B8F1-7E66-424A-80F8-3BC58D4BEE35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClientFirstDesign", "ClientFirstDesign", "{C435A218-BD75-495A-AADF-DA025FDF7A7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{934E5040-5B28-4D38-ACD3-70AFFF0D3C17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ForString", "ForString", "{570A2971-0C09-471D-8524-473DF2EB71B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ForSortedArray", "ForSortedArray", "{FDDCF1D1-3B3D-4BD1-BD2A-E131ED37996B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VP.Algorithm.Search.Array", "src\ForSortedArray\VP.Algorithm.Search.Array.csproj", "{74DD42FF-1CFA-46D1-9A00-18834A1C92FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VP.Algorithm.Search.Array.UnitTest", "test\ForSortedArray\UnitTest\VP.Algorithm.Search.Array.UnitTest.csproj", "{FB29120A-E224-49FC-9472-C9DF2F6D4C3C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VP.Algorithm.Search.ClientFirstDesign", "test\ForSortedArray\ClientFirstDesign\VP.Algorithm.Search.ClientFirstDesign.csproj", "{B993F772-CDD9-4912-AE18-58C140552DD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74DD42FF-1CFA-46D1-9A00-18834A1C92FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74DD42FF-1CFA-46D1-9A00-18834A1C92FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74DD42FF-1CFA-46D1-9A00-18834A1C92FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74DD42FF-1CFA-46D1-9A00-18834A1C92FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB29120A-E224-49FC-9472-C9DF2F6D4C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB29120A-E224-49FC-9472-C9DF2F6D4C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB29120A-E224-49FC-9472-C9DF2F6D4C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB29120A-E224-49FC-9472-C9DF2F6D4C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B993F772-CDD9-4912-AE18-58C140552DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B993F772-CDD9-4912-AE18-58C140552DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B993F772-CDD9-4912-AE18-58C140552DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B993F772-CDD9-4912-AE18-58C140552DD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C8D4B8F1-7E66-424A-80F8-3BC58D4BEE35} = {B34FD8E5-5047-41A4-8C4D-3E3C833F4F66}
+		{C435A218-BD75-495A-AADF-DA025FDF7A7C} = {FDDCF1D1-3B3D-4BD1-BD2A-E131ED37996B}
+		{934E5040-5B28-4D38-ACD3-70AFFF0D3C17} = {FDDCF1D1-3B3D-4BD1-BD2A-E131ED37996B}
+		{570A2971-0C09-471D-8524-473DF2EB71B2} = {B34FD8E5-5047-41A4-8C4D-3E3C833F4F66}
+		{FDDCF1D1-3B3D-4BD1-BD2A-E131ED37996B} = {FAEA05B8-21F6-494F-A436-67ABBE630398}
+		{74DD42FF-1CFA-46D1-9A00-18834A1C92FE} = {C8D4B8F1-7E66-424A-80F8-3BC58D4BEE35}
+		{FB29120A-E224-49FC-9472-C9DF2F6D4C3C} = {934E5040-5B28-4D38-ACD3-70AFFF0D3C17}
+		{B993F772-CDD9-4912-AE18-58C140552DD8} = {C435A218-BD75-495A-AADF-DA025FDF7A7C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F76722E-AF41-46A1-87C6-1DE2A0A8D277}
+	EndGlobalSection
+EndGlobal

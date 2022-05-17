@@ -55,7 +55,6 @@ public static class ArraySearchExtension
 		if (lowerBound.IsGreaterThanEqualTo(upperBound))
 			Throw.ArgumentException("'lowerBound' must be smaller than 'upperBound'");
 
-
 		while (lowerBound.IsLessThanEqualTo(upperBound))
 		{
 			var currentIndex = (upperBound + lowerBound) >> 1;
